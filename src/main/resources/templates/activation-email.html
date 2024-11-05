@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Activation de votre compte</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <img src="cid:logoImage" style="width: 70px; height: auto;" alt="Logo" />
+
+    <h2>Bienvenue sur SanteFurture!</h2>
+    <p>Bonjour <span th:text="${username}"></span>,</p>
+    <p>Votre code d'activation est : <strong th:text="${code}"></strong></p>
+    <p>Merci de l'utiliser pour activer votre compte.</p>
+    <p>Cordialement, <br/> L'équipe SanteFurture</p>
+</div>
+</body>
+</html>
